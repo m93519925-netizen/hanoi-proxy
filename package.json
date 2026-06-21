@@ -1,29 +1,11 @@
 {
   "name": "hanoi-proxy",
   "version": "1.0.0",
-  "description": "Hà Nội Score Crawler Proxy with Antiforgery Token Support",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "keywords": [
-    "crawler",
-    "hanoi",
-    "exam",
-    "score",
-    "proxy"
-  ],
-  "author": "Anonymous",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.0",
-    "qs": "^6.11.0",
-    "dotenv": "^16.3.1",
-    "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^4.0.7",
+    "express": "^4.19.2",
+    "tough-cookie": "^4.1.4"
   }
 }
